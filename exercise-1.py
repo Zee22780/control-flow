@@ -12,11 +12,7 @@
 #         For example, if some_char in 'abc':
 
 letter = input('Please enter a letter from the alphabet (a-z or A-Z)')
-
-vowels = ['a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U']
-
-for letter in vowels:
-  if(letter == vowels[0]):
-    print('The letter {letter} is a vowel')
-  else:
-    print('The letter {letter} is a consonant')
+if(letter == 'A' or letter == 'a' or letter == 'E' or letter == 'e' or letter == 'I' or letter == 'i' or letter == 'O' or letter == 'o' or letter == 'U' or letter == 'u'):
+    print(f'The letter {letter} is a vowel')
+else:
+    print(f'The letter {letter} is a consonant')
