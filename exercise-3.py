@@ -35,7 +35,6 @@
 #prints a message to user and includes total age
 
 
-
 human_age = input("Input a dog's age in human years: ")
 
 if(int(human_age) > 2):
