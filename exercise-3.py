@@ -11,12 +11,12 @@
 
 # Hint:  Use the int() function to convert the string returned from input() into an integer
 
-
+# My pseudocode
 #request input from user - it will be a number but needs to be converted to an int
 #take that int and
   #add 10 years to first 2 years
   #add 7 years for any remaining years
-#examples: user inputs 5
+#test examples: user inputs 5
   #year 1 = 10
   #year 2 = 10
   #year 3 = 7
@@ -26,7 +26,7 @@
 
   #or actually!
 
-  #if int > 2 takes int and subtracts 2 and stores that in a variable
+  #if int > 2 takes int and subtracts 2 and stores 2 in a variable
     #mult variable by 10
   #takes remainder and stores that in a separate variable
     #mult variable by 7
